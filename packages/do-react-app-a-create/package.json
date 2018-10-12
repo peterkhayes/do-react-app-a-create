@@ -1,11 +1,11 @@
 {
-  "name": "create-react-app",
-  "version": "2.0.3",
+  "name": "do-react-app-a-create",
+  "version": "2.0.4",
   "keywords": [
     "react"
   ],
-  "description": "Create React apps with no build configuration.",
-  "repository": "facebook/create-react-app",
+  "description": "Do React apps a create without doing your build a configure.",
+  "repository": "peterkhayes/do-react-app-a-create",
   "license": "MIT",
   "engines": {
     "node": ">=4"
@@ -15,11 +15,11 @@
   },
   "files": [
     "index.js",
-    "createReactApp.js",
+    "doReactAppACreate.js",
     "yarn.lock.cached"
   ],
   "bin": {
-    "create-react-app": "./index.js"
+    "do-react-app-a-create": "./index.js"
   },
   "dependencies": {
     "chalk": "1.1.3",

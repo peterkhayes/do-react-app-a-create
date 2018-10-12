@@ -10,7 +10,7 @@
 
 #### :nail_care: Enhancement
 
-- `create-react-app`
+- `do-react-app-a-create`
   - [#5270](https://github.com/facebook/create-react-app/pull/5270) Caches the Yarn resolution for faster installs ([@arcanis](https://github.com/arcanis))
   - [#5269](https://github.com/facebook/create-react-app/pull/5269) Adds a version check when using --use-pnp ([@arcanis](https://github.com/arcanis))
 - `react-scripts`
@@ -19,7 +19,7 @@
 #### :memo: Documentation
 
 - Other
-  - [#5228](https://github.com/facebook/create-react-app/pull/5228) removed create-react-app-parcel link ([@lockround](https://github.com/lockround))
+  - [#5228](https://github.com/facebook/create-react-app/pull/5228) removed do-react-app-a-create-parcel link ([@lockround](https://github.com/lockround))
   - [#5254](https://github.com/facebook/create-react-app/pull/5254) Update README links for CSS modules and SASS ([@yuyokk](https://github.com/yuyokk))
   - [#5249](https://github.com/facebook/create-react-app/pull/5249) Set the color palette to something a bit more React-y ([@selbekk](https://github.com/selbekk))
   - [#5244](https://github.com/facebook/create-react-app/pull/5244) Update favicon and OpenGraph images ([@selbekk](https://github.com/selbekk))
@@ -52,10 +52,10 @@
 
 ## 2.0.3 (October 1, 2018)
 
-Create React App 2.0 brings a year’s worth of improvements in a single dependency update.
+Do React App A Create 2.0 brings a year’s worth of improvements in a single dependency update.
 We summarized all of the changes in a blog post!<br>
 
-Check it out: **[Create React App 2.0: Babel 7, Sass, and More](https://reactjs.org/blog/2018/10/01/create-react-app-v2.html)**.
+Check it out: **[Do React App A Create 2.0: Babel 7, Sass, and More](https://reactjs.org/blog/2018/10/01/do-react-app-a-create-v2.html)**.
 
 It provides a high-level overview of new features and improvements. Now let's see how to update your app to the latest version in detail.
 
@@ -73,7 +73,7 @@ or
 yarn add --exact react-scripts@2.0.3
 ```
 
-If you previously ejected but now want to upgrade, one common solution is to find the commits where you ejected (and any subsequent commits changing the configuration), revert them, upgrade, and later optionally eject again. It’s also possible that the feature you ejected for (maybe Sass or CSS Modules?) is now supported out of the box. You can find a list of notable new features in the **[Create React App 2.0 blog post](https://reactjs.org/blog/2018/10/01/create-react-app-v2.html)**.
+If you previously ejected but now want to upgrade, one common solution is to find the commits where you ejected (and any subsequent commits changing the configuration), revert them, upgrade, and later optionally eject again. It’s also possible that the feature you ejected for (maybe Sass or CSS Modules?) is now supported out of the box. You can find a list of notable new features in the **[Do React App A Create 2.0 blog post](https://reactjs.org/blog/2018/10/01/do-react-app-a-create-v2.html)**.
 
 ## Breaking Changes
 
@@ -106,7 +106,7 @@ import 'react-app-polyfill/ie9'; // For IE 9-11 support
 import 'react-app-polyfill/ie11'; // For IE 11 support
 ```
 
-You can read more about [these polyfills here](https://github.com/facebook/create-react-app/tree/master/packages/react-app-polyfill).
+You can read more about [these polyfills here](https://github.com/peterkhayes/do-react-app-a-create/tree/master/packages/react-app-polyfill).
 
 ### Dynamic `import()` of a CommonJS module now has a `.default` property
 
@@ -249,7 +249,7 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
 
 # Detailed Changelog
 
-**For a readable summary of the changes, [check out our blog post](https://reactjs.org/blog/2018/10/01/create-react-app-v2.html).**
+**For a readable summary of the changes, [check out our blog post](https://reactjs.org/blog/2018/10/01/do-react-app-a-create-v2.html).**
 
 #### :rocket: New Feature
 
@@ -272,7 +272,7 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
   - [#3675](https://github.com/facebook/create-react-app/pull/3675) add experimental babel-plugin-macros support ([@kentcdodds](https://github.com/kentcdodds))
 - `babel-preset-react-app`, `confusing-browser-globals`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#4077](https://github.com/facebook/create-react-app/pull/4077) Webpack 4 ([@andriijas](https://github.com/andriijas))
-- `create-react-app`
+- `do-react-app-a-create`
   - [#4350](https://github.com/facebook/create-react-app/pull/4350) Support package distribution tags ([@miraage](https://github.com/miraage))
 - `babel-preset-react-app`, `react-scripts`
   - [#3776](https://github.com/facebook/create-react-app/pull/3776) Compile dependencies with babel-preset-env ([@gaearon](https://github.com/gaearon))
@@ -356,19 +356,19 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
   - [#5078](https://github.com/facebook/create-react-app/pull/5078) Prevent the cache of files using Babel Macros ([@Timer](https://github.com/Timer))
 - `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#5026](https://github.com/facebook/create-react-app/pull/5026) Switch from uglifyjs to terser ([@Timer](https://github.com/Timer))
-- `create-react-app`
-  - [#4677](https://github.com/facebook/create-react-app/pull/4677) Support scoped package names for scripts-version option in create-react-app cli ([@bugzpodder](https://github.com/bugzpodder))
+- `do-react-app-a-create`
+  - [#4677](https://github.com/facebook/create-react-app/pull/4677) Support scoped package names for scripts-version option in do-react-app-a-create cli ([@bugzpodder](https://github.com/bugzpodder))
   - [#2705](https://github.com/facebook/create-react-app/pull/2705) Don't delete error logs when install fails ([@mg](https://github.com/mg))
 - `react-dev-utils`, `react-scripts`
   - [#4391](https://github.com/facebook/create-react-app/pull/4391) Update getCSSModuleLocalIdent to support Sass ([@arianon](https://github.com/arianon))
 - `babel-plugin-named-asset-import`, `babel-preset-react-app`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#4159](https://github.com/facebook/create-react-app/pull/4159) Bump babel-related deps ([@existentialism](https://github.com/existentialism))
-- `create-react-app`, `react-dev-utils`, `react-scripts`
+- `do-react-app-a-create`, `react-dev-utils`, `react-scripts`
   - [#3997](https://github.com/facebook/create-react-app/pull/3997) Use yarn when running inside yarn workspace. ([@bradfordlemley](https://github.com/bradfordlemley))
 
 #### :nail_care: Enhancement
 
-- `create-react-app`, `react-scripts`
+- `do-react-app-a-create`, `react-scripts`
   - [#5136](https://github.com/facebook/create-react-app/pull/5136) Plug'n'Play support ([@arcanis](https://github.com/arcanis))
 - `react-dev-utils`, `react-scripts`
   - [#5174](https://github.com/facebook/create-react-app/pull/5174) 💅 Polish webpack message output ([@Timer](https://github.com/Timer))
@@ -412,16 +412,16 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
 - `babel-preset-react-app`
   - [#4432](https://github.com/facebook/create-react-app/pull/4432) Update babel-plugin-macros to fix a bug ([@stereobooster](https://github.com/stereobooster))
   - [#3818](https://github.com/facebook/create-react-app/pull/3818) Remove PropTypes from production build (#209) ([@iansu](https://github.com/iansu))
-- `create-react-app`
+- `do-react-app-a-create`
   - [#4375](https://github.com/facebook/create-react-app/pull/4375) fix: update envinfo + implementation, update issue_template ([@tabrindle](https://github.com/tabrindle))
 - `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
   - [#4048](https://github.com/facebook/create-react-app/pull/4048) Add ESLint check for incorrect propTypes usage (#3840) ([@iansu](https://github.com/iansu))
   - [#2690](https://github.com/facebook/create-react-app/pull/2690) Bump eslint-plugin-jsx-a11y version ([@gaearon](https://github.com/gaearon))
 - `eslint-config-react-app`
   - [#3844](https://github.com/facebook/create-react-app/pull/3844) remove radix eslint rule ([@sendilkumarn](https://github.com/sendilkumarn))
-- `create-react-app`, `react-dev-utils`, `react-scripts`
+- `do-react-app-a-create`, `react-dev-utils`, `react-scripts`
   - [#3792](https://github.com/facebook/create-react-app/pull/3792) Offer to set default browsers ([@Timer](https://github.com/Timer))
-- `babel-preset-react-app`, `create-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `do-react-app-a-create`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#3785](https://github.com/facebook/create-react-app/pull/3785) Bump dependencies ([@gaearon](https://github.com/gaearon))
 - `babel-preset-react-app`, `react-scripts`
   - [#3770](https://github.com/facebook/create-react-app/pull/3770) Loosen Babel preset to use browserslist ([@Timer](https://github.com/Timer))
@@ -469,16 +469,16 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
   - [#4814](https://github.com/facebook/create-react-app/pull/4814) Update CODE_OF_CONDUCT.md ([@Ashleyotero](https://github.com/Ashleyotero))
   - [#4638](https://github.com/facebook/create-react-app/pull/4638) Add instructions on alternative methods of app creation ([@RusinovAnton](https://github.com/RusinovAnton))
   - [#4546](https://github.com/facebook/create-react-app/pull/4546) Update file tree view ([@antzshrek](https://github.com/antzshrek))
-  - [#4449](https://github.com/facebook/create-react-app/pull/4449) add create-react-app-parcel to Alternatives section in README ([@sw-yx](https://github.com/sw-yx))
+  - [#4449](https://github.com/facebook/create-react-app/pull/4449) add do-react-app-a-create-parcel to Alternatives section in README ([@sw-yx](https://github.com/sw-yx))
   - [#4294](https://github.com/facebook/create-react-app/pull/4294) documentation: added License to the README.md ([@thiagopaiva99](https://github.com/thiagopaiva99))
   - [#4323](https://github.com/facebook/create-react-app/pull/4323) Fix typo in e2e-simple.sh comment ([@bmuenzenmeyer](https://github.com/bmuenzenmeyer))
   - [#4134](https://github.com/facebook/create-react-app/pull/4134) fix: Minor typos ([@fejes713](https://github.com/fejes713))
   - [#4114](https://github.com/facebook/create-react-app/pull/4114) Update CONTRIBUTING.md ([@jkzing](https://github.com/jkzing))
   - [#3825](https://github.com/facebook/create-react-app/pull/3825) Add svg rendering for error example ([@marionebl](https://github.com/marionebl))
   - [#3810](https://github.com/facebook/create-react-app/pull/3810) Update screencast to use npx ([@marionebl](https://github.com/marionebl))
-- `create-react-app`
+- `do-react-app-a-create`
   - [#4309](https://github.com/facebook/create-react-app/pull/4309) Fix typo to word bootstrapped in condition to check for old version o… ([@jamesvsshark](https://github.com/jamesvsshark))
-  - [#4015](https://github.com/facebook/create-react-app/pull/4015) add `create-react-app --help` info for local file path `--scripts-version` support ([@albertstill](https://github.com/albertstill))
+  - [#4015](https://github.com/facebook/create-react-app/pull/4015) add `do-react-app-a-create --help` info for local file path `--scripts-version` support ([@albertstill](https://github.com/albertstill))
 - `react-dev-utils`, `react-scripts`
   - [#3836](https://github.com/facebook/create-react-app/pull/3836) Use custom bit.ly links ([@bondz](https://github.com/bondz))
 
@@ -488,7 +488,7 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
   - [#5205](https://github.com/facebook/create-react-app/pull/5205) Disable react/no-deprecated rule ([@Timer](https://github.com/Timer))
   - [#5051](https://github.com/facebook/create-react-app/pull/5051) Adjust ESLint configuration for v5 ([@Timer](https://github.com/Timer))
   - [#4187](https://github.com/facebook/create-react-app/pull/4187) Change no-unused-vars 'args' from none to all to show warning on dest… ([@goncy](https://github.com/goncy))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `create-react-app`, `eslint-config-react-app`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `do-react-app-a-create`, `eslint-config-react-app`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#5192](https://github.com/facebook/create-react-app/pull/5192) Add license file to all packages ([@Timer](https://github.com/Timer))
 - Other
   - [#5183](https://github.com/facebook/create-react-app/pull/5183) Test class properties ([@Timer](https://github.com/Timer))
@@ -531,7 +531,7 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
   - [#5091](https://github.com/facebook/create-react-app/pull/5091) Allow stage 3 css transforms ([@Timer](https://github.com/Timer))
   - [#5054](https://github.com/facebook/create-react-app/pull/5054) Ensure Babel files get purged on upgrades ([@Timer](https://github.com/Timer))
   - [#5031](https://github.com/facebook/create-react-app/pull/5031) Upgrade `html-webpack-plugin` to fix tests ([@Timer](https://github.com/Timer))
-- `babel-preset-react-app`, `create-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `do-react-app-a-create`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#5080](https://github.com/facebook/create-react-app/pull/5080) Update tons of packages ([@Timer](https://github.com/Timer))
 - `react-error-overlay`, `react-scripts`
   - [#5050](https://github.com/facebook/create-react-app/pull/5050) Eslint 5.6 ([@bugzpodder](https://github.com/bugzpodder))
@@ -542,7 +542,7 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
   - [#5032](https://github.com/facebook/create-react-app/pull/5032) Upgrade `react-scripts` dependencies ([@Timer](https://github.com/Timer))
 - `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#5026](https://github.com/facebook/create-react-app/pull/5026) Switch from uglifyjs to terser ([@Timer](https://github.com/Timer))
-- `create-react-app`
+- `do-react-app-a-create`
   - [#4383](https://github.com/facebook/create-react-app/pull/4383) Add Node 10 to Travis config and remove Node 6 ([@iansu](https://github.com/iansu))
   - [#3853](https://github.com/facebook/create-react-app/pull/3853) pin envinfo version to 3.4.2 ([@bondz](https://github.com/bondz))
 - `react-error-overlay`

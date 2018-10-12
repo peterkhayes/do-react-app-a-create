@@ -51,7 +51,7 @@ npm install --save-dev --save-exact react-scripts@0.9.5
 ## 0.9.4 (March 6, 2017)
 
 #### :bug: Bug Fix
-* `create-react-app`
+* `do-react-app-a-create`
 
   * [#1706](https://github.com/facebook/create-react-app/pull/1706) Extract compressed package for package name. ([@Timer](https://github.com/Timer))
 
@@ -137,16 +137,16 @@ npm install --save-dev --save-exact react-scripts@0.9.4
 You may also optionally update the global command-line utility for scoped package support:
 
 ```
-npm install -g create-react-app@1.3.0
+npm install -g do-react-app-a-create@1.3.0
 ```
 
 ## 0.9.3 (February 28, 2017)
 
 #### :rocket: New Feature
-* `create-react-app`
+* `do-react-app-a-create`
   * [#1423](https://github.com/facebook/create-react-app/pull/1423) **Fall back to Yarn offline cache when creating a new project.** ([@voxsim](https://github.com/voxsim))
 
-  If you are using Yarn, and you have created at least one app previously, Create React App now works offline.
+  If you are using Yarn, and you have created at least one app previously, Do React App A Create now works offline.
 
   <img src="http://i.imgur.com/1FLa9Tg.gif" width="500" alt="Yarn offline installation demo">
 
@@ -156,7 +156,7 @@ npm install -g create-react-app@1.3.0
 
   * [#1665](https://github.com/facebook/create-react-app/pull/1665) Temporarily disable ESLint caching because of a bug. ([@gaearon](https://github.com/gaearon))
 
-* `create-react-app`
+* `do-react-app-a-create`
   * [#1675](https://github.com/facebook/create-react-app/pull/1675) Delete project folder on failed installation on Windows. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
   * [#1662](https://github.com/facebook/create-react-app/pull/1662) Validate project name before creating a project. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
   * [#1669](https://github.com/facebook/create-react-app/pull/1669) Make sure React dependencies aren’t pinned in new projects. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
@@ -194,21 +194,21 @@ npm install --save-dev --save-exact react-scripts@0.9.3
 You may also optionally update the global command-line utility for offline Yarn cache support:
 
 ```
-npm install -g create-react-app@1.2.1
+npm install -g do-react-app-a-create@1.2.1
 ```
 
 ## 0.9.2 (February 26, 2017)
 
 #### :nail_care: Enhancement
 
-* `create-react-app`
+* `do-react-app-a-create`
   * [#1253](https://github.com/facebook/create-react-app/pull/1253) **Install time optimization.** ([@n3tr](https://github.com/n3tr))
 
     React, ReactDOM, and `react-scripts` are now installed in the same install instead of two different installs. This reduces app creation time by a noticeable amount.
 
   * [#1512](https://github.com/facebook/create-react-app/pull/1512) **Graceful error handling.** ([@chitchu](https://github.com/chitchu))
 
-    If an error occurs while `create-react-app` is running, it will now clean up and not leave a broken project to reduce confusion.
+    If an error occurs while `do-react-app-a-create` is running, it will now clean up and not leave a broken project to reduce confusion.
 
   * [#1193](https://github.com/facebook/create-react-app/pull/1193) Suggest upgrading to NPM >= 3 for faster install times. ([@mobinni](https://github.com/mobinni))
 
@@ -261,7 +261,7 @@ npm install -g create-react-app@1.2.1
   * [#1543](https://github.com/facebook/create-react-app/pull/1543) Update CSS preprocessor instructions. ([@aleburato](https://github.com/aleburato))
   * [#1338](https://github.com/facebook/create-react-app/pull/1338) Add link to Azure deployment tutorial. ([@tpetrina](https://github.com/tpetrina))
   * [#1320](https://github.com/facebook/create-react-app/pull/1320) Document how to disable autoprefix feature. ([@rrubas](https://github.com/rrubas))
-  * [#1313](https://github.com/facebook/create-react-app/pull/1313) List features beyond ES6 supported by create-react-app. ([@jonathanconway](https://github.com/jonathanconway))
+  * [#1313](https://github.com/facebook/create-react-app/pull/1313) List features beyond ES6 supported by do-react-app-a-create. ([@jonathanconway](https://github.com/jonathanconway))
   * [#1008](https://github.com/facebook/create-react-app/pull/1008) Add Saas support documentation. ([@tsironis](https://github.com/tsironis))
   * [#994](https://github.com/facebook/create-react-app/pull/994) Suggest `jest-enzyme` for simplifying test matchers. ([@blainekasten](https://github.com/blainekasten))
   * [#1608](https://github.com/facebook/create-react-app/pull/1608) Add note for using CHOKIDAR_USEPOLLING in virtual machines to enable HMR. ([@AJamesPhillips](https://github.com/AJamesPhillips))
@@ -329,7 +329,7 @@ npm install --save-dev --save-exact react-scripts@0.9.2
 You may also optionally update the global command-line utility for more efficient installs (thanks [@n3tr](https://github.com/n3tr)):
 
 ```
-npm install -g create-react-app@1.1.0
+npm install -g do-react-app-a-create@1.1.0
 ```
 
 ## <s>0.9.1 (February 25, 2017)</s>
@@ -346,21 +346,21 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
 
   * [#1489](https://github.com/facebook/create-react-app/pull/1489) Support setting `"homepage"` to `"."` to generate relative asset paths. ([@tibdex](https://github.com/tibdex))
 
-    Applications that don’t use the HTML5 `pushState` API can now be built to be served from any relative URL. To enable this, specify `"."` as your `homepage` setting in `package.json`. It used to be possible before with a few known bugs, but they should be fixed now. See [Serving the Same Build from Different Paths](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#serving-the-same-build-from-different-paths).
+    Applications that don’t use the HTML5 `pushState` API can now be built to be served from any relative URL. To enable this, specify `"."` as your `homepage` setting in `package.json`. It used to be possible before with a few known bugs, but they should be fixed now. See [Serving the Same Build from Different Paths](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#serving-the-same-build-from-different-paths).
 
   * [#937](https://github.com/facebook/create-react-app/pull/1504) Add `PUBLIC_URL` environment variable for advanced use. ([@EnoahNetzach](https://github.com/EnoahNetzach))
 
-    If you use a CDN to serve the app, you can now specify `PUBLIC_URL` environment variable to override the base URL (including the hostname) for resources referenced from the built code. This new variable is mentioned in the new [Advanced Configuration](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#advanced-configuration) section.
+    If you use a CDN to serve the app, you can now specify `PUBLIC_URL` environment variable to override the base URL (including the hostname) for resources referenced from the built code. This new variable is mentioned in the new [Advanced Configuration](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#advanced-configuration) section.
 
   * [#1440](https://github.com/facebook/create-react-app/pull/1440) Make all `REACT_APP_*` environment variables accessible in `index.html`. ([@jihchi](https://github.com/jihchi))
 
-    This makes all environment variables previously available in JS, also available in the HTML file, for example `%REACT_APP_MY_VARIABLE%`. See [Referencing Environment Variables in HTML](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#referencing-environment-variables-in-the-html).
+    This makes all environment variables previously available in JS, also available in the HTML file, for example `%REACT_APP_MY_VARIABLE%`. See [Referencing Environment Variables in HTML](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#referencing-environment-variables-in-the-html).
 
 * `react-dev-utils`
 
   * [#1148](https://github.com/facebook/create-react-app/pull/1148) Configure which browser to open with `npm start`. ([@GAumala](https://github.com/GAumala))
 
-    You can now disable the automatic browser launching by setting the `BROWSER` environment variable to `none`. You can also specify a different browser (or an arbitrary script) to open by default, [as supported by `opn` command](https://github.com/sindresorhus/opn#app) that we use under the hood. See [Advanced Configuration](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#advanced-configuration).
+    You can now disable the automatic browser launching by setting the `BROWSER` environment variable to `none`. You can also specify a different browser (or an arbitrary script) to open by default, [as supported by `opn` command](https://github.com/sindresorhus/opn#app) that we use under the hood. See [Advanced Configuration](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#advanced-configuration).
 
 #### :boom: Breaking Change
 
@@ -376,7 +376,7 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
 
   * [#1264](https://github.com/facebook/create-react-app/pull/1264) Remove interactive shell check when opening browser on start. ([@CaryLandholt](https://github.com/CaryLandholt))
 
-    Non-interactive terminals no longer automatically disable launching of the browser. Instead, you need to [specify `none` as `BROWSER` environment variable](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#advanced-configuration) if you wish to disable it.
+    Non-interactive terminals no longer automatically disable launching of the browser. Instead, you need to [specify `none` as `BROWSER` environment variable](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#advanced-configuration) if you wish to disable it.
 
 #### :bug: Bug Fix
 
@@ -410,7 +410,7 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
   * [#1510](https://github.com/facebook/create-react-app/pull/1510) Add missing `'\n'` to the end of `package.json` file. ([@pd4d10](https://github.com/pd4d10))
   * [#1324](https://github.com/facebook/create-react-app/pull/1324) Use npm script hooks to avoid `&&` in deploy script. ([@zpao](https://github.com/zpao))
 
-* `create-react-app`
+* `do-react-app-a-create`
 
   * [#1270](https://github.com/facebook/create-react-app/pull/1270) gh-1269: Enabling nested folder paths for project name. ([@dinukadesilva](https://github.com/dinukadesilva))
 
@@ -507,10 +507,10 @@ If you relied on the browser not starting in non-interactive terminals, you now 
 Thanks to [@fson](https://github.com/fson) for cutting this release.
 
 #### :bug: Bug Fix
-* `create-react-app`, `react-scripts`
+* `do-react-app-a-create`, `react-scripts`
   * [#1365](https://github.com/facebook/create-react-app/pull/1365) Use yarnpkg alias to run Yarn. ([@fson](https://github.com/fson))
 
-    Fixes an issue where running `create-react-app` failed on systems with Apache Hadoop installed because it falsely detected Hadoop YARN executable as Yarn package manager.
+    Fixes an issue where running `do-react-app-a-create` failed on systems with Apache Hadoop installed because it falsely detected Hadoop YARN executable as Yarn package manager.
 
 #### Committers: 1
 - Ville Immonen ([fson](https://github.com/fson))
@@ -526,7 +526,7 @@ npm install --save-dev --save-exact react-scripts@0.8.5
 You may also optionally update the global command-line utility:
 
 ```
-npm install -g create-react-app@1.0.3
+npm install -g do-react-app-a-create@1.0.3
 ```
 
 ## 0.8.4 (December 11, 2016)
@@ -548,7 +548,7 @@ npm install -g create-react-app@1.0.3
 
     Fixes a regression that caused stable Google Chrome to be opened even if you are using Canary as the default browser.
 
-* `create-react-app`
+* `do-react-app-a-create`
 
   * [#1223](https://github.com/facebook/create-react-app/pull/1223) Clean up Yarn detection and install code. ([@fson](https://github.com/fson))
 
@@ -575,7 +575,7 @@ npm install -g create-react-app@1.0.3
 
     Suppresses the instructions printed at the end of `npm run build` if `npm run deploy` already exists.
 
-* `create-react-app`
+* `do-react-app-a-create`
 
   * [#1236](https://github.com/facebook/create-react-app/pull/1236) Tweak console messages. ([@gaearon](https://github.com/gaearon))
 
@@ -583,7 +583,7 @@ npm install -g create-react-app@1.0.3
 
   * [#1195](https://github.com/facebook/create-react-app/pull/1195) Use "commander" for  cli argv handling. ([@EnoahNetzach](https://github.com/EnoahNetzach))
 
-    Adds `create-react-app --help` with a list of options.
+    Adds `do-react-app-a-create --help` with a list of options.
 
 * `react-dev-utils`
 
@@ -628,16 +628,16 @@ npm install --save-dev --save-exact react-scripts@0.8.4
 You may also optionally update the global command-line utility:
 
 ```
-npm install -g create-react-app@1.0.2
+npm install -g do-react-app-a-create@1.0.2
 ```
 
 ## 0.8.3 (December 8, 2016)
 
 #### :bug: Bug Fix
-* `create-react-app`
+* `do-react-app-a-create`
   * [#1204](https://github.com/facebook/create-react-app/pull/1204) Catch synchronous errors from spawning yarn. ([@gaearon](https://github.com/gaearon))
 
-    Fixes a crash when running `create-react-app` in some cases.
+    Fixes a crash when running `do-react-app-a-create` in some cases.
 
 * `react-scripts`
   * [#1203](https://github.com/facebook/create-react-app/pull/1203) Update webpack-subresource-integrity to fix Windows builds. ([@gaearon](https://github.com/gaearon))
@@ -669,7 +669,7 @@ npm install --save-dev --save-exact react-scripts@0.8.3
 You can optionally update the global CLI too:
 
 ```
-npm install -g create-react-app@1.0.1
+npm install -g do-react-app-a-create@1.0.1
 ```
 
 ## 0.8.2 (December 7, 2016)
@@ -688,7 +688,7 @@ npm install -g create-react-app@1.0.1
 
   * [#1194](https://github.com/facebook/create-react-app/pull/1194) Only honor relative `NODE_PATH`. ([@gaearon](https://github.com/gaearon))
 
-    Historically we have allowed specifying `NODE_PATH` environment variable as a way to allow “absolute imports”. For example, running `NODE_PATH=src npm start` in Bash or `set NODE_PATH=src&&npm start` in Windows Cmd would let you import anything inside `src` without specifying a relative path. However, we found a few nasty edge cases when Node.js core modules end up being in `NODE_PATH` and erroneously become bundled. As a result the build would crash on some systems when some libraries are imported. To fix this, we now only honor relative paths from `NODE_PATH` in Create React App. This means the existing use case for absolute imports is still supported (`src` in the example above is relative), but absolute paths in `NODE_PATH` (such as paths to Node.js core modules) will be ignored.
+    Historically we have allowed specifying `NODE_PATH` environment variable as a way to allow “absolute imports”. For example, running `NODE_PATH=src npm start` in Bash or `set NODE_PATH=src&&npm start` in Windows Cmd would let you import anything inside `src` without specifying a relative path. However, we found a few nasty edge cases when Node.js core modules end up being in `NODE_PATH` and erroneously become bundled. As a result the build would crash on some systems when some libraries are imported. To fix this, we now only honor relative paths from `NODE_PATH` in Do React App A Create. This means the existing use case for absolute imports is still supported (`src` in the example above is relative), but absolute paths in `NODE_PATH` (such as paths to Node.js core modules) will be ignored.
 
   * [#1188](https://github.com/facebook/create-react-app/pull/1188) Update Webpack to fix source map issues. ([@gaearon](https://github.com/gaearon))
 
@@ -779,22 +779,22 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 * `react-scripts`
   * [#944](https://github.com/facebook/create-react-app/pull/944) Crash the build during CI whenever linter warnings are encountered. ([@excitement-engineer](https://github.com/excitement-engineer))
 
-    Linter warnings and errors are now checked during a continuous integration build (set by the `CI` environment variable) and the build will fail if any issues are found. See [Continuous Integration](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#continuous-integration) for more information.
+    Linter warnings and errors are now checked during a continuous integration build (set by the `CI` environment variable) and the build will fail if any issues are found. See [Continuous Integration](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#continuous-integration) for more information.
 
   * [#1090](https://github.com/facebook/create-react-app/pull/1090) Enable proxying of WebSockets. ([@dceddia](https://github.com/dceddia))
 
-* `create-react-app`, `react-scripts`
+* `do-react-app-a-create`, `react-scripts`
   * [#898](https://github.com/facebook/create-react-app/pull/898) Support Yarn. ([@fson](https://github.com/fson))
 
-    Yarn is a new fast, reliable and secure alternative to the `npm` client. If you have Yarn installed, `create-react-app` will use it to install packages when you create an app. It also creates a `yarn.lock` file that should be checked into source control (e.g. git). This ensures the same versions of packages will be installed each time `yarn install` is run, on any machine.
+    Yarn is a new fast, reliable and secure alternative to the `npm` client. If you have Yarn installed, `do-react-app-a-create` will use it to install packages when you create an app. It also creates a `yarn.lock` file that should be checked into source control (e.g. git). This ensures the same versions of packages will be installed each time `yarn install` is run, on any machine.
 
     `react-scripts` now also displays instructions using `yarn` commands for projects using Yarn (projects having a `yarn.lock` file).
 
-    To create a project using Yarn, simply install `yarn` and use `create-react-app` like before:
+    To create a project using Yarn, simply install `yarn` and use `do-react-app-a-create` like before:
     ```
-    npm install -g yarn create-react-app@latest
+    npm install -g yarn do-react-app-a-create@latest
 
-    create-react-app my-app  # Packages are now installed with Yarn.
+    do-react-app-a-create my-app  # Packages are now installed with Yarn.
     ```
 
 #### :boom: Breaking Change
@@ -803,7 +803,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
     Object rest spread and JSX now use the native `Object.assign()` method instead of Babel's helper function. If you are using `babel-preset-react-app` directly in your project *and* targeting browsers that don't have `Object.assign()` available, from now on you need a polyfill for it (e.g. [`object-assign`](https://www.npmjs.com/package/object-assign)).
 
-    **Note:** `react-scripts` already adds this polyfill, so no changes are necessary in Create React App projects.
+    **Note:** `react-scripts` already adds this polyfill, so no changes are necessary in Do React App A Create projects.
 
 #### :bug: Bug Fix
 * `react-scripts`
@@ -918,7 +918,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 You may optionally update the global command (it’s not required, but it adds Yarn support for new projects):
 
 ```
-npm install -g create-react-app@1.0.0
+npm install -g do-react-app-a-create@1.0.0
 ```
 
 Inside any created project that has not been ejected, run:
@@ -960,7 +960,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 * The error overlay is now disposed after fixing linting errors. ([@jarlef](https://github.com/jarlef) in [#856](https://github.com/facebook/create-react-app/pull/856))
 * Adds support for Webpack 2 to `webpackHotDevClient`. ([@michalkvasnicak](https://github.com/michalkvasnicak) in [#840](https://github.com/facebook/create-react-app/pull/840))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`do-react-app-a-create`)
 
 * Adds support for passing a scoped package name to the `--scripts-version` argument. ([@pdillon](https://github.com/pdillon) in [#826](https://github.com/facebook/create-react-app/pull/826))
 * Fixes installing pre-release versions using a tarball URL with the `--scripts-version` argument. ([@jihchi](https://github.com/jihchi) in [#876](https://github.com/facebook/create-react-app/pull/876))
@@ -970,7 +970,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 You may optionally update the global command (it’s not required):
 
 ```
-npm install -g create-react-app@0.6.0
+npm install -g do-react-app-a-create@0.6.0
 ```
 
 Inside any created project that has not been ejected, run:
@@ -1048,8 +1048,8 @@ npm install --save-dev --save-exact react-scripts@0.5.1
 
 ### Build Dependency (`react-scripts`)
 
-* Adds [support for `public` folder](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#using-the-public-folder) with arbitrary assets. ([@gaearon](https://github.com/gaearon) in [#703](https://github.com/facebook/create-react-app/pull/703))
-* You can now [specify defaults](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env) for environment variables with `.env` file. ([@ayrton](https://github.com/ayrton) in [#695](https://github.com/facebook/create-react-app/pull/695))  
+* Adds [support for `public` folder](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#using-the-public-folder) with arbitrary assets. ([@gaearon](https://github.com/gaearon) in [#703](https://github.com/facebook/create-react-app/pull/703))
+* You can now [specify defaults](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env) for environment variables with `.env` file. ([@ayrton](https://github.com/ayrton) in [#695](https://github.com/facebook/create-react-app/pull/695))  
 * Ejecting now generates proper `.babelrc` and `.eslintrc`. ([@fson](https://github.com/fson) in [#689](https://github.com/facebook/create-react-app/pull/689), [@gaearon](https://github.com/gaearon) in [#705](https://github.com/facebook/create-react-app/pull/705))
 * Some React warnings now [include the component stacktrace](https://twitter.com/dan_abramov/status/779308833399332864). ([@gaearon](https://github.com/gaearon) in [#716](https://github.com/facebook/create-react-app/pull/716))
 * `npm start` doesn’t fail in a composed Docker container. ([@arekkas](https://github.com/arekkas) in [#711](https://github.com/facebook/create-react-app/issues/711))
@@ -1069,7 +1069,7 @@ npm install --save-dev --save-exact react-scripts@0.5.1
 
 * Published for the first time! ([@gaearon](https://github.com/gaearon) in [#723](https://github.com/facebook/create-react-app/pull/723))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`do-react-app-a-create`)
 
 * Added `README` to npm. There were no other changes.
 
@@ -1085,7 +1085,7 @@ npm install --save-dev --save-exact react-scripts@0.5.0
 
 #### Global ESLint Plugin Versions
 
-If you used a global ESLint installation for the editor integration, you’ll need to install [these versions of global ESLint packages](https://github.com/facebook/create-react-app/blob/c092086b1b256fd081f10744f90d216dd5217e29/packages/eslint-config-react-app/package.json#L14-L19).
+If you used a global ESLint installation for the editor integration, you’ll need to install [these versions of global ESLint packages](https://github.com/peterkhayes/do-react-app-a-create/blob/c092086b1b256fd081f10744f90d216dd5217e29/packages/eslint-config-react-app/package.json#L14-L19).
 
 #### Moving `index.html` into `public` Folder
 
@@ -1105,7 +1105,7 @@ You would need to move both `index.html` and `src/favicon.ico` into the `public`
 <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
 ```
 
-This ensures it become a part of the build output, and resolves correctly both with client-side routing and non-root `homepage` in `package.json`. Read more about [using the `public` folder](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#using-the-public-folder) and [why these changes were made](https://github.com/facebook/create-react-app/pull/703).
+This ensures it become a part of the build output, and resolves correctly both with client-side routing and non-root `homepage` in `package.json`. Read more about [using the `public` folder](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#using-the-public-folder) and [why these changes were made](https://github.com/facebook/create-react-app/pull/703).
 
 ## 0.4.3 (September 18, 2016)
 
@@ -1141,20 +1141,20 @@ npm install --save-dev --save-exact react-scripts@0.4.3
 * Variables starting with underscore no longer trigger the “unused variable” rule. ([@valscion](https://github.com/valscion) in [#640](https://github.com/facebook/create-react-app/pull/640))
 * We now print a friendly error when required files are missing. ([@vnctaing](https://github.com/vnctaing) in [#653](https://github.com/facebook/create-react-app/pull/653))
 * The output after creating a project is better formatted. ([@btnwtn](https://github.com/btnwtn) in [#629](https://github.com/facebook/create-react-app/pull/629))
-* Development server logs are less noisy. ([@gaearon](https://github.com/gaearon) in [122068](https://github.com/facebook/create-react-app/commit/1220683276dd9eb2f2719aece7f40bf2ffb397b4))
+* Development server logs are less noisy. ([@gaearon](https://github.com/gaearon) in [122068](https://github.com/peterkhayes/do-react-app-a-create/commit/1220683276dd9eb2f2719aece7f40bf2ffb397b4))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`do-react-app-a-create`)
 
-* It now runs on early Node versions to print a friendly warning instead of crashing. ([@sotojuan](https://github.com/sotojuan) in [fc3ab4](https://github.com/facebook/create-react-app/commit/fc3ab46d2a54f142f9287ce7de9ab2fc2514487d))
+* It now runs on early Node versions to print a friendly warning instead of crashing. ([@sotojuan](https://github.com/sotojuan) in [fc3ab4](https://github.com/peterkhayes/do-react-app-a-create/commit/fc3ab46d2a54f142f9287ce7de9ab2fc2514487d))
 * We now print a friendly message when you create a project with invalid name. ([@mareksuscak](https://github.com/mareksuscak) in [#628](https://github.com/facebook/create-react-app/pull/628))
-* Passing a custom fork of `react-scripts` to `create-react-app` with `--scripts-version` works again. ([@yesmeck](https://github.com/yesmeck) in [#632](https://github.com/facebook/create-react-app/pull/632))
+* Passing a custom fork of `react-scripts` to `do-react-app-a-create` with `--scripts-version` works again. ([@yesmeck](https://github.com/yesmeck) in [#632](https://github.com/facebook/create-react-app/pull/632))
 
 ### Migrating from 0.4.1 to 0.4.2
 
 You may optionally update the global command (it’s not required):
 
 ```
-npm install -g create-react-app@0.4.2
+npm install -g do-react-app-a-create@0.4.2
 ```
 
 Inside any created project that has not been ejected, run:
@@ -1199,9 +1199,9 @@ npm install --save-dev --save-exact react-scripts@0.4.0
 
 Paths like `/src/somefile.png` used to be served in development, but only by accident. They never worked in production builds. Since 0.4.0, we [don’t serve static files by default in development anymore either](https://github.com/facebook/create-react-app/pull/551). This removes a dangerous inconsistency that we never intentionally supported.
 
-If you need a static file to be part for the build, [import it from JavaScript and you will get its filename](https://github.com/facebook/create-react-app/blob/master/template/README.md#adding-images-and-fonts). This ensures it gets included into the production build as well, and its filename contains the content hash.
+If you need a static file to be part for the build, [import it from JavaScript and you will get its filename](https://github.com/peterkhayes/do-react-app-a-create/blob/master/template/README.md#adding-images-and-fonts). This ensures it gets included into the production build as well, and its filename contains the content hash.
 
-If you used static files with `<link href>`, [read this new guide](https://github.com/facebook/create-react-app/blob/master/template/README.md#referring-to-static-assets-from-link-href) on how to make sure these files get included into the builds. For example, you can replace `<link href="/src/favicons/favicon-32.png">` with `<link href="./src/favicons/favicon-32.png">`, and then Webpack will recognize it and include it into the build.
+If you used static files with `<link href>`, [read this new guide](https://github.com/peterkhayes/do-react-app-a-create/blob/master/template/README.md#referring-to-static-assets-from-link-href) on how to make sure these files get included into the builds. For example, you can replace `<link href="/src/favicons/favicon-32.png">` with `<link href="./src/favicons/favicon-32.png">`, and then Webpack will recognize it and include it into the build.
 
 If you referenced some other files from `index.html`, please file an issue to discuss your use case. In the meantime, you can serve them from a separate static server until your use case is supported.
 
@@ -1223,15 +1223,15 @@ npm install --save-dev --save-exact react-scripts@0.3.1
 
 ### Build Dependency (`react-scripts`)
 
-* Testing is [now supported](https://github.com/facebook/create-react-app/blob/master/template/README.md#running-tests)! ([Jest project contributors](https://github.com/facebook/jest/pulls?q=is%3Apr+is%3Aclosed), [@cpojer](https://github.com/cpojer) in [#250](https://github.com/facebook/create-react-app/pull/250), [@gaearon](https://github.com/gaearon) in [#378](https://github.com/facebook/create-react-app/pull/378), [#530](https://github.com/facebook/create-react-app/pull/530), [#533](https://github.com/facebook/create-react-app/pull/533))
+* Testing is [now supported](https://github.com/peterkhayes/do-react-app-a-create/blob/master/template/README.md#running-tests)! ([Jest project contributors](https://github.com/facebook/jest/pulls?q=is%3Apr+is%3Aclosed), [@cpojer](https://github.com/cpojer) in [#250](https://github.com/facebook/create-react-app/pull/250), [@gaearon](https://github.com/gaearon) in [#378](https://github.com/facebook/create-react-app/pull/378), [#530](https://github.com/facebook/create-react-app/pull/530), [#533](https://github.com/facebook/create-react-app/pull/533))
 * Static files such as CSS, images, and fonts, can now exist outside `src` directory. ([@fson](https://github.com/fson) in [#504](https://github.com/facebook/create-react-app/pull/504))
 * **Breaking Change:** Local paths in `<link href>` in `index.html` will now be correctly resolved, so deleting `favicon.ico` is not an error anymore. ([@andreypopp](https://github.com/andreypopp) in [#428](https://github.com/facebook/create-react-app/pull/428))
 * Removed an annoying lint rule that warned for `<div ref={node => this.node = node}>`. ([@mrscobbler](https://github.com/mrscobbler) in [#529](https://github.com/facebook/create-react-app/pull/529))
 * Temporarily disabled `react-constant-elements` Babel transform because of its bugs. ([@gaearon](https://github.com/gaearon) in [#534](https://github.com/facebook/create-react-app/pull/534))
-* Fixed a permission issue with Docker. ([@gaearon](https://github.com/gaearon) in [73c940](https://github.com/facebook/create-react-app/commit/73c940a73205d761230f8d6bf81ecfd460ba28a9))
+* Fixed a permission issue with Docker. ([@gaearon](https://github.com/gaearon) in [73c940](https://github.com/peterkhayes/do-react-app-a-create/commit/73c940a73205d761230f8d6bf81ecfd460ba28a9))
 * Fixed an issue with generator syntax in Jest that occurred in an alpha release. ([@gaearon](https://github.com/gaearon) in [#535](https://github.com/facebook/create-react-app/pull/535))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`do-react-app-a-create`)
 
 * You can now create a project in a folder that already contains an `.idea` folder, which is necessary for future WebStorm integration. ([@denofevil](https://github.com/denofevil) in [#522](https://github.com/facebook/create-react-app/pull/522))
 
@@ -1240,7 +1240,7 @@ npm install --save-dev --save-exact react-scripts@0.3.1
 You may optionally update the global command (it’s not required):
 
 ```
-npm install -g create-react-app@0.3.0
+npm install -g do-react-app-a-create@0.3.0
 ```
 
 Inside any created project that has not been ejected, run:
@@ -1270,14 +1270,14 @@ Since 0.3.0 added a test runner, we recommend that you add it to the `scripts` s
   }
 ```
 
-[Then read the testing guide to learn more about using it!](https://github.com/facebook/create-react-app/blob/master/template/README.md#running-tests)
+[Then read the testing guide to learn more about using it!](https://github.com/peterkhayes/do-react-app-a-create/blob/master/template/README.md#running-tests)
 
 ## 0.2.3 (August 25, 2016)
 
 ### Build Dependency (`react-scripts`)
 
-* You can now [proxy requests to an API server](https://github.com/facebook/create-react-app/blob/ef94b0561d5afb9b50b905fa5cd3f94e965c69c0/template/README.md#proxying-api-requests-in-development) without worrying about CORS. ([@gaearon](https://github.com/gaearon) in [#282](https://github.com/facebook/create-react-app/pull/282))
-* You can now [pass custom environment variables](https://github.com/facebook/create-react-app/blob/ef94b0561d5afb9b50b905fa5cd3f94e965c69c0/template/README.md#adding-custom-environment-variables) to your application. ([@eliperelman](https://github.com/eliperelman) in [#342](https://github.com/facebook/create-react-app/pull/342))
+* You can now [proxy requests to an API server](https://github.com/peterkhayes/do-react-app-a-create/blob/ef94b0561d5afb9b50b905fa5cd3f94e965c69c0/template/README.md#proxying-api-requests-in-development) without worrying about CORS. ([@gaearon](https://github.com/gaearon) in [#282](https://github.com/facebook/create-react-app/pull/282))
+* You can now [pass custom environment variables](https://github.com/peterkhayes/do-react-app-a-create/blob/ef94b0561d5afb9b50b905fa5cd3f94e965c69c0/template/README.md#adding-custom-environment-variables) to your application. ([@eliperelman](https://github.com/eliperelman) in [#342](https://github.com/facebook/create-react-app/pull/342))
 * You can now [use `async` and `await`](https://ponyfoo.com/articles/understanding-javascript-async-await) syntax. ([@gaearon](https://github.com/gaearon) in [#327](https://github.com/facebook/create-react-app/pull/327), [@fson](https://github.com/fson) in [#332](https://github.com/facebook/create-react-app/pull/332))
 * Paths with period in them now load successfully on the development server. ([@mxstbr](https://github.com/mxstbr) in [#422](https://github.com/facebook/create-react-app/pull/422))
 * Images with `.webp` extension are now supported. ([@gafemoyano](https://github.com/gafemoyano) in [#458](https://github.com/facebook/create-react-app/pull/458))
@@ -1288,7 +1288,7 @@ Since 0.3.0 added a test runner, we recommend that you add it to the `scripts` s
 
 Update `react-scripts` to point to `0.2.3` in your `package.json` and run `npm install`. You shouldn’t need to do anything else.
 
-Newly created projects will use `0.2.3` automatically. You **don’t** need to update the global `create-react-app` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
+Newly created projects will use `0.2.3` automatically. You **don’t** need to update the global `do-react-app-a-create` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.2 (August 22, 2016)
 
@@ -1308,7 +1308,7 @@ Newly created projects will use `0.2.3` automatically. You **don’t** need to u
 
 Update `react-scripts` to point to `0.2.2` in your `package.json` and run `npm install`. You shouldn’t need to do anything else.
 
-Newly created projects will use `0.2.2` automatically. You **don’t** need to update the global `create-react-app` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
+Newly created projects will use `0.2.2` automatically. You **don’t** need to update the global `do-react-app-a-create` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.1 (August 1, 2016)
 
@@ -1325,7 +1325,7 @@ Newly created projects will use `0.2.2` automatically. You **don’t** need to u
 
 Update `react-scripts` to point to `0.2.1` in your `package.json` and run `npm install`. You shouldn’t need to do anything else. If you see a warning about wrong file casing next time you `npm start`, fix your imports to use the correct filename casing.
 
-Newly created projects will use `0.2.1` automatically. You **don’t** need to update the global `create-react-app` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
+Newly created projects will use `0.2.1` automatically. You **don’t** need to update the global `do-react-app-a-create` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.0 (July 28, 2016)
 
@@ -1333,8 +1333,8 @@ Newly created projects will use `0.2.1` automatically. You **don’t** need to u
 
 * You can now enable deployment to GitHub Pages by adding `homepage` field to `package.json` ([@dhruska](https://github.com/dhruska) in [#94](https://github.com/facebook/create-react-app/pull/94))
 * Development server now runs on `0.0.0.0` and works with VirtualBox ([@JWo1F](https://github.com/JWo1F) in [#128](https://github.com/facebook/create-react-app/pull/128))
-* Cloud9 and Nitrous online IDEs are now supported ([@gaearon](http://github.com/gaearon) in [2fe84e](https://github.com/facebook/create-react-app/commit/2fe84ecded55f1d5258d91f9c2c07698ae0d2fb4))
-* When `3000` port is taken, we offer to use another port ([@chocnut](https://github.com/chocnut) in [#101](https://github.com/facebook/create-react-app/pull/101), [2edf21](https://github.com/facebook/create-react-app/commit/2edf2180f2aa6bf647807d0b1fcd95f4cfe4a558))
+* Cloud9 and Nitrous online IDEs are now supported ([@gaearon](http://github.com/gaearon) in [2fe84e](https://github.com/peterkhayes/do-react-app-a-create/commit/2fe84ecded55f1d5258d91f9c2c07698ae0d2fb4))
+* When `3000` port is taken, we offer to use another port ([@chocnut](https://github.com/chocnut) in [#101](https://github.com/facebook/create-react-app/pull/101), [2edf21](https://github.com/peterkhayes/do-react-app-a-create/commit/2edf2180f2aa6bf647807d0b1fcd95f4cfe4a558))
 * You can now `import` CSS files from npm modules ([@glennreyes](https://github.com/glennreyes) in [#105](https://github.com/facebook/create-react-app/pull/105), [@breaddevil](https://github.com/breaddevil) in [#178](https://github.com/facebook/create-react-app/pull/178))
 * `fetch` and `Promise` polyfills are now always included ([@gaearon](https://github.com/gaearon) in [#235](https://github.com/facebook/create-react-app/pull/235))
 * Regenerator runtime is now included if you use ES6 generators ([@gaearon](https://github.com/gaearon) in [#238](https://github.com/facebook/create-react-app/pull/238))
@@ -1343,12 +1343,12 @@ Newly created projects will use `0.2.1` automatically. You **don’t** need to u
 * A stylistic lint rule about method naming has been removed ([@mxstbr](https://github.com/mxstbr) in [#152](https://github.com/facebook/create-react-app/pull/157))
 * A few unobtrusive accessibility lint rules have been added ([@evcohen](https://github.com/evcohen) in [#175](https://github.com/facebook/create-react-app/pull/175))
 * A `.babelrc` in parent directory no longer causes an error ([@alexzherdev](https://github.com/alexzherdev) in [#236](https://github.com/facebook/create-react-app/pull/236))
-* Files with `.json` extension are now discovered ([@gaearon](https://github.com/gaearon) in [a11d6a](https://github.com/facebook/create-react-app/commit/a11d6a398f487f9163880dd34667b1d3e14b147a))
+* Files with `.json` extension are now discovered ([@gaearon](https://github.com/gaearon) in [a11d6a](https://github.com/peterkhayes/do-react-app-a-create/commit/a11d6a398f487f9163880dd34667b1d3e14b147a))
 * Bug fixes from transitive dependencies are included ([#126](https://github.com/facebook/create-react-app/issues/126))
-* Linting now works with IDEs if you follow [these](https://github.com/facebook/create-react-app/blob/master/template/README.md#display-lint-output-in-the-editor) instructions ([@keyanzhang](https://github.com/keyanzhang) in [#149](https://github.com/facebook/create-react-app/pull/149))
+* Linting now works with IDEs if you follow [these](https://github.com/peterkhayes/do-react-app-a-create/blob/master/template/README.md#display-lint-output-in-the-editor) instructions ([@keyanzhang](https://github.com/keyanzhang) in [#149](https://github.com/facebook/create-react-app/pull/149))
 * After building, we now print gzipped bundle size ([@lvwrence](https://github.com/lvwrence) in [#229](https://github.com/facebook/create-react-app/pull/229))
 
-### Global CLI (`create-react-app`)
+### Global CLI (`do-react-app-a-create`)
 
 * It enforces that you have Node >= 4 ([@conorhastings](https://github.com/conorhastings) in [#88](https://github.com/facebook/create-react-app/pull/88))
 * It handles `--version` flag correctly ([@mxstbr](https://github.com/mxstbr) in [#152](https://github.com/facebook/create-react-app/pull/152))
@@ -1358,7 +1358,7 @@ Newly created projects will use `0.2.1` automatically. You **don’t** need to u
 You may optionally update the global command (it’s not required):
 
 ```
-npm install -g create-react-app@0.2.0
+npm install -g do-react-app-a-create@0.2.0
 ```
 
 Inside any created project that has not been ejected, run:
@@ -1367,7 +1367,7 @@ Inside any created project that has not been ejected, run:
 npm install --save-dev --save-exact react-scripts@0.2.0
 ```
 
-You may need to fix a few lint warnings about missing `<img alt>` tag, but everything else should work out of the box. If you intend to deploy your site to GitHub Pages, you may now [add `homepage` field to `package.json`](https://github.com/facebook/create-react-app/blob/master/template/README.md#deploy-to-github-pages). If you had [issues with integrating editor linter plugins](https://github.com/facebook/create-react-app/issues/124), follow [these new instructions](https://github.com/facebook/create-react-app/blob/master/template/README.md#display-lint-output-in-the-editor).
+You may need to fix a few lint warnings about missing `<img alt>` tag, but everything else should work out of the box. If you intend to deploy your site to GitHub Pages, you may now [add `homepage` field to `package.json`](https://github.com/peterkhayes/do-react-app-a-create/blob/master/template/README.md#deploy-to-github-pages). If you had [issues with integrating editor linter plugins](https://github.com/facebook/create-react-app/issues/124), follow [these new instructions](https://github.com/peterkhayes/do-react-app-a-create/blob/master/template/README.md#display-lint-output-in-the-editor).
 
 ## 0.1.0 (July 22, 2016)
 

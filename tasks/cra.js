@@ -111,7 +111,7 @@ cp.execSync('yarn cache clean');
 const args = process.argv.slice(2);
 
 // Now run the CRA command
-const craScriptPath = path.join(packagesDir, 'create-react-app', 'index.js');
+const craScriptPath = path.join(packagesDir, 'do-react-app-a-create', 'index.js');
 cp.execSync(
   `node ${craScriptPath} --scripts-version="${scriptsPath}" ${args.join(' ')}`,
   {

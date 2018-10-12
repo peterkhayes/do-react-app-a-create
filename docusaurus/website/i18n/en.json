@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Create React apps with no build configuration.",
+    "tagline": "Do React apps a create without doing your build a configure.",
     "docs": {
       "getting-started": {
         "title": "Getting started",

@@ -1,18 +1,18 @@
 # babel-preset-react-app
 
-This package includes the Babel preset used by [Create React App](https://github.com/facebook/create-react-app).<br>
+This package includes the Babel preset used by [Do React App A Create](https://github.com/peterkhayes/do-react-app-a-create).<br>
 Please refer to its documentation:
 
-- [Getting Started](https://github.com/facebook/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
-- [User Guide](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
+- [Getting Started](https://github.com/peterkhayes/do-react-app-a-create/blob/master/README.md#getting-started) – How to create a new app.
+- [User Guide](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Do React App A Create.
 
-## Usage in Create React App Projects
+## Usage in Do React App A Create Projects
 
-The easiest way to use this configuration is with [Create React App](https://github.com/facebook/create-react-app), which includes it by default. **You don’t need to install it separately in Create React App projects.**
+The easiest way to use this configuration is with [Do React App A Create](https://github.com/peterkhayes/do-react-app-a-create), which includes it by default. **You don’t need to install it separately in Do React App A Create projects.**
 
-## Usage Outside of Create React App
+## Usage Outside of Do React App A Create
 
-If you want to use this Babel preset in a project not built with Create React App, you can install it with following steps.
+If you want to use this Babel preset in a project not built with Do React App A Create, you can install it with following steps.
 
 First, [install Babel](https://babeljs.io/docs/setup/).
 

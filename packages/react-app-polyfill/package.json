@@ -2,7 +2,7 @@
   "name": "react-app-polyfill",
   "version": "0.1.3",
   "description": "Polyfills for various browsers including commonly used language features",
-  "repository": "facebook/create-react-app",
+  "repository": "peterkhayes/do-react-app-a-create",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/facebook/create-react-app/issues"

@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-react-app",
   "version": "3.0.3",
-  "description": "ESLint configuration used by Create React App",
-  "repository": "facebook/create-react-app",
+  "description": "ESLint configuration used by Do React App A Create",
+  "repository": "peterkhayes/do-react-app-a-create",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/facebook/create-react-app/issues"

@@ -1,18 +1,18 @@
 # react-dev-utils
 
-This package includes some utilities used by [Create React App](https://github.com/facebook/create-react-app).<br>
+This package includes some utilities used by [Do React App A Create](https://github.com/peterkhayes/do-react-app-a-create).<br>
 Please refer to its documentation:
 
-- [Getting Started](https://github.com/facebook/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
-- [User Guide](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
+- [Getting Started](https://github.com/peterkhayes/do-react-app-a-create/blob/master/README.md#getting-started) – How to create a new app.
+- [User Guide](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Do React App A Create.
 
-## Usage in Create React App Projects
+## Usage in Do React App A Create Projects
 
-These utilities come by default with [Create React App](https://github.com/facebook/create-react-app), which includes it by default. **You don’t need to install it separately in Create React App projects.**
+These utilities come by default with [Do React App A Create](https://github.com/peterkhayes/do-react-app-a-create), which includes it by default. **You don’t need to install it separately in Do React App A Create projects.**
 
-## Usage Outside of Create React App
+## Usage Outside of Do React App A Create
 
-If you don’t use Create React App, or if you [ejected](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject), you may keep using these utilities. Their development will be aligned with Create React App, so major versions of these utilities may come out relatively often. Feel free to fork or copy and paste them into your projects if you’d like to have more control over them, or feel free to use the old versions. Not all of them are React-specific, but we might make some of them more React-specific in the future.
+If you don’t use Do React App A Create, or if you [ejected](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md#npm-run-eject), you may keep using these utilities. Their development will be aligned with Do React App A Create, so major versions of these utilities may come out relatively often. Feel free to fork or copy and paste them into your projects if you’d like to have more control over them, or feel free to use the old versions. Not all of them are React-specific, but we might make some of them more React-specific in the future.
 
 ### Entry Points
 
@@ -169,7 +169,7 @@ console.log('Just cleared the screen!');
 
 #### `eslintFormatter(results: Object): string`
 
-This is our custom ESLint formatter that integrates well with Create React App console output.<br>
+This is our custom ESLint formatter that integrates well with Do React App A Create console output.<br>
 You can use the default one instead if you prefer so.
 
 ```js
@@ -273,8 +273,8 @@ Finds the currently running process on `port`.
 Returns a string containing the name and directory, e.g.,
 
 ```
-create-react-app
-in /Users/developer/create-react-app
+do-react-app-a-create
+in /Users/developer/do-react-app-a-create
 ```
 
 ```js
@@ -285,7 +285,7 @@ getProcessForPort(3000);
 
 #### `launchEditor(fileName: string, lineNumber: number): void`
 
-On macOS, tries to find a known running editor process and opens the file in it. It can also be explicitly configured by `REACT_EDITOR`, `VISUAL`, or `EDITOR` environment variables. For example, you can put `REACT_EDITOR=atom` in your `.env.local` file, and Create React App will respect that.
+On macOS, tries to find a known running editor process and opens the file in it. It can also be explicitly configured by `REACT_EDITOR`, `VISUAL`, or `EDITOR` environment variables. For example, you can put `REACT_EDITOR=atom` in your `.env.local` file, and Do React App A Create will respect that.
 
 #### `noopServiceWorkerMiddleware(): ExpressMiddleware`
 

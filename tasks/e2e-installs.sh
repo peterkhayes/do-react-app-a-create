@@ -106,7 +106,7 @@ git clean -df
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx create-react-app --scripts-version=@latest test-app-dist-tag
+npx do-react-app-a-create --scripts-version=@latest test-app-dist-tag
 cd test-app-dist-tag
 
 # Check corresponding scripts version is installed.
@@ -118,7 +118,7 @@ checkDependencies
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx create-react-app --scripts-version=1.0.17 test-app-version-number
+npx do-react-app-a-create --scripts-version=1.0.17 test-app-version-number
 cd test-app-version-number
 
 # Check corresponding scripts version is installed.
@@ -131,7 +131,7 @@ checkDependencies
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx create-react-app --use-npm --scripts-version=1.0.17 test-use-npm-flag
+npx do-react-app-a-create --use-npm --scripts-version=1.0.17 test-use-npm-flag
 cd test-use-npm-flag
 
 # Check corresponding scripts version is installed.
@@ -145,7 +145,7 @@ checkDependencies
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx create-react-app --scripts-version=https://registry.npmjs.org/react-scripts/-/react-scripts-1.0.17.tgz test-app-tarball-url
+npx do-react-app-a-create --scripts-version=https://registry.npmjs.org/react-scripts/-/react-scripts-1.0.17.tgz test-app-tarball-url
 cd test-app-tarball-url
 
 # Check corresponding scripts version is installed.
@@ -158,7 +158,7 @@ checkDependencies
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx create-react-app --scripts-version=react-scripts-fork test-app-fork
+npx do-react-app-a-create --scripts-version=react-scripts-fork test-app-fork
 cd test-app-fork
 
 # Check corresponding scripts version is installed.
@@ -170,7 +170,7 @@ exists node_modules/react-scripts-fork
 
 cd "$temp_app_path"
 # we will install a non-existing package to simulate a failed installataion.
-npx create-react-app --scripts-version=`date +%s` test-app-should-not-exist || true
+npx do-react-app-a-create --scripts-version=`date +%s` test-app-should-not-exist || true
 # confirm that the project files were deleted
 test ! -e test-app-should-not-exist/package.json
 test ! -d test-app-should-not-exist/node_modules
@@ -183,7 +183,7 @@ cd "$temp_app_path"
 mkdir test-app-should-remain
 echo '## Hello' > ./test-app-should-remain/README.md
 # we will install a non-existing package to simulate a failed installataion.
-npx create-react-app --scripts-version=`date +%s` test-app-should-remain || true
+npx do-react-app-a-create --scripts-version=`date +%s` test-app-should-remain || true
 # confirm the file exist
 test -e test-app-should-remain/README.md
 # confirm only README.md and error log are the only files in the directory
@@ -197,7 +197,7 @@ fi
 
 cd $temp_app_path
 curl "https://registry.npmjs.org/@enoah_netzach/react-scripts/-/react-scripts-0.9.0.tgz" -o enoah-scripts-0.9.0.tgz
-npx create-react-app --scripts-version=$temp_app_path/enoah-scripts-0.9.0.tgz test-app-scoped-fork-tgz
+npx do-react-app-a-create --scripts-version=$temp_app_path/enoah-scripts-0.9.0.tgz test-app-scoped-fork-tgz
 cd test-app-scoped-fork-tgz
 
 # Check corresponding scripts version is installed.
@@ -212,20 +212,20 @@ cd "$temp_app_path"
 mkdir test-app-nested-paths-t1
 cd test-app-nested-paths-t1
 mkdir -p test-app-nested-paths-t1/aa/bb/cc/dd
-npx create-react-app test-app-nested-paths-t1/aa/bb/cc/dd
+npx do-react-app-a-create test-app-nested-paths-t1/aa/bb/cc/dd
 cd test-app-nested-paths-t1/aa/bb/cc/dd
 yarn start --smoke-test
 
 # Testing a path that does not exist
 cd "$temp_app_path"
-npx create-react-app test-app-nested-paths-t2/aa/bb/cc/dd
+npx do-react-app-a-create test-app-nested-paths-t2/aa/bb/cc/dd
 cd test-app-nested-paths-t2/aa/bb/cc/dd
 yarn start --smoke-test
 
 # Testing a path that is half exists
 cd "$temp_app_path"
 mkdir -p test-app-nested-paths-t3/aa
-npx create-react-app test-app-nested-paths-t3/aa/bb/cc/dd
+npx do-react-app-a-create test-app-nested-paths-t3/aa/bb/cc/dd
 cd test-app-nested-paths-t3/aa/bb/cc/dd
 yarn start --smoke-test
 
@@ -233,7 +233,7 @@ yarn start --smoke-test
 # Test when PnP is enabled
 # ******************************************************************************
 cd "$temp_app_path"
-npx create-react-app test-app-pnp --use-pnp
+npx do-react-app-a-create test-app-pnp --use-pnp
 cd test-app-pnp
 ! exists node_modules
 exists .pnp.js

@@ -1,7 +1,7 @@
 # react-app-polyfill
 
 This package includes polyfills for various browsers.
-It includes minimum requirements and commonly used language features used by [Create React App](https://github.com/facebook/create-react-app) projects.
+It includes minimum requirements and commonly used language features used by [Do React App A Create](https://github.com/peterkhayes/do-react-app-a-create) projects.
 
 ### Features
 
