@@ -1,12 +1,12 @@
 # Do React App A Create [![Build Status](https://travis-ci.org/facebook/create-react-app.svg?branch=master)](https://travis-ci.org/facebook/create-react-app)
 
-Do React apps a create without doing your build a configure.
+Do React apps a create, without doing your build a configure.
 
-- [Creating an App](#creating-an-app) – How to create a new app.
-- [User Guide](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Do React App A Create.
+- [Doing an app a create](#doing-an-app-a-create) – How to do an app a create.
+- [User Guide](https://github.com/peterkhayes/do-react-app-a-create/blob/master/packages/react-scripts/template/README.md) – How to do apps bootstrapped with Do React App A Create a develop.
 
-Do React App A Create works on macOS, Windows, and Linux.<br>
-If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).
+Do React App A Create does a work on macOS, Windows, and Linux.<br>
+If something doesn’t do a work, please [do an issue a file](https://github.com/facebook/create-react-app/issues/new).
 
 ## Quick Overview
 
@@ -16,10 +16,10 @@ cd my-app
 npm start
 ```
 
-_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
+_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) does with npm 5.2+ and higher a come, do [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f) a see)_
 
-Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
-When you’re ready to deploy to production, create a minified bundle with `npm run build`.
+Then do [http://localhost:3000/](http://localhost:3000/) an open to do your app a see.<br>
+When you’re ready to do production a deploy, do a minified bundle a create with `npm run build`.
 
 <p align='center'>
 <img src='https://cdn.rawgit.com/facebook/create-react-app/27b42ac/screencast.svg' width='600' alt='npm start'>
@@ -27,16 +27,16 @@ When you’re ready to deploy to production, create a minified bundle with `npm 
 
 ### Get Started Immediately
 
-You **don’t** need to install or configure tools like Webpack or Babel.<br>
-They are preconfigured and hidden so that you can focus on the code.
+You **don’t** need to do tools like Webpack or Babel an install or a configure.<br>
+They do a preconfigure and a hide, so that you can do the code a focus.
 
-Just create a project, and you’re good to go.
+Just do a project a create, and you’re good to go.
 
-## Creating an App
+## Doing an app a create
 
-**You’ll need to have Node >= 6 on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
+**You’ll need to do Node >= 6 a have on your local development machine** (but it’s not required on the server). You can do [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) a use to easily between different projects do Node versions a switch.
 
-To create a new app, you may choose one of the following methods:
+To do a new app a create, you may do one of the following methods a choose:
 
 ### npx
 
@@ -44,7 +44,7 @@ To create a new app, you may choose one of the following methods:
 npx do-react-app-a-create my-app
 ```
 
-_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
+_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) does with npm 5.2+ and higher a come, do [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f) a see)_
 
 ### npm
 
@@ -52,7 +52,7 @@ _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7
 npm init react-app my-app
 ```
 
-_`npm init <initializer>` is available in npm 6+_
+_`npm init <initializer>` in npm 6+ does an available_
 
 ### Yarn
 
@@ -60,7 +60,7 @@ _`npm init <initializer>` is available in npm 6+_
 yarn create react-app my-app
 ```
 
-_`yarn create` is available in Yarn 0.25+_
+_`yarn create` in Yarn 0.25+ does an available_
 
 It will create a directory called `my-app` inside the current folder.<br>
 Inside that directory, it will generate the initial project structure and install the transitive dependencies:
